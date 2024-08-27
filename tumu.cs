@@ -77,8 +77,8 @@ namespace WindowsFormsApp1
 
          
             // istekyap metodunu çağırarak isteği yapın
-            TIstekSonuc isteksonuc = meddataLabServiceClient.istekyap(Base64Encode("doga"), Base64Encode("doga"), 212,"LAB",istekGiris);
-            TLoginSonuc  lsonuc =  meddataLabServiceClient.Login(Base64Encode("doga"), Base64Encode("doga"));
+            TIstekSonuc isteksonuc = meddataLabServiceClient.istekyap(Base64Encode("ilayda"), Base64Encode("ilayda"), 114,"LAB",istekGiris);
+            TLoginSonuc  lsonuc =  meddataLabServiceClient.Login(Base64Encode("ilayda"), Base64Encode("ilayda"));
             // Sonuç mesajını göster
 
            
