@@ -85,7 +85,7 @@ namespace WindowsFormsApp1
 
 
 
-            int a = meddataLabServiceClient.test(Base64Encode("dogad"), Base64Encode("doga"), "demo");
+            int a = meddataLabServiceClient.test(Base64Encode("ilayda"), Base64Encode("ilayda"), "demo");
             MessageBox.Show(a.ToString());
 
 
